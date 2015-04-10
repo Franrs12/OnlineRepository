@@ -1,3 +1,1 @@
 Texto del tercer archivo.
-
-Cambios en el tercer archivo.
