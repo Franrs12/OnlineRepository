@@ -31,6 +31,7 @@ def Blog
 	miPrimerPost = Post.new("Mi Primer Post", "11-4-2015", "Este es el texto de mi primer post.")
 	miSegundoPost = Post.new("Mi Segundo Post", "11-4-2015 por la tarde", "Este es otro texto.")
 
+	
 	#Usa accesor methods
 	x = miPrimerPost.imprimeTitulo()
 	y = miPrimerPost.imprimeFecha()
