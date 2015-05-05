@@ -14,7 +14,7 @@ class Car
 	def get_total_cars #Este sí se queda con el valor, se podría operar con él.
 		
 	end
-	def self.get_total_cars #Para esta no hace falta crear un coche y preguntarlo. Se pregunta a la clase.
+	def self.show_total_cars #Para esta no hace falta crear un coche y preguntarlo. Se pregunta a la clase.
 		puts IO.read('cars.txt')
 	end
 end
@@ -33,4 +33,4 @@ coche_electrico.show_total_cars
 #puts coche_electrico.show_total_cars == nil		# => true
 #puts coche_electrico.get_total_cars * 20 == 60	# => true
 
-Car.get_total_cars
+Car.show_total_cars
