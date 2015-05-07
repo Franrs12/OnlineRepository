@@ -23,14 +23,16 @@ CribaEratostenes(3, 25)
 =end
 
 def CribaEratostenes first, last
+	dividers = []
+	for n in 2..last
+		dividers.push n
+	end
 	for i in first..last
-		n = (1..i)
-		if i % n != 0
-			puts 'primo'
-		else
-			puts i
+		dividers.each do |div|
+			result = i % div != 0
+			puts "#{i} es primo" if result != 0
 		end
 	end
 end
 
-CribaEratostenes 3, 8
+CribaEratostenes 3, 5
