@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+
+gem 'imdb'
+gem 'artii', '~> 2.1.1'

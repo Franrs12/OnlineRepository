@@ -1,0 +1,2 @@
+module FriendlyLinksHelper
+end

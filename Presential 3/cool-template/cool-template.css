@@ -1,0 +1,91 @@
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.black-and-white {
+	width: 126rem;
+}
+
+.content-container {
+	width: 100%;
+	border-top: solid 12px;
+	border-bottom: solid 12px;
+	border-color: #d13473;
+}
+
+.content-row {
+	background-color: #c00d55;
+	color: #cfcdcd;
+	text-align: center;
+	font-weight: lighter;
+}
+
+.big-text {
+	padding: 30px;	
+}
+
+#revera {
+	padding: 24px 280px 24px 48px;
+	font-size: 200%;
+	text-decoration: inherit;
+	font-weight: bold;
+}
+
+.buttons {
+	padding: 40px;
+}
+
+.little-images {
+  width:  270px;
+  height: 190px;
+  margin-bottom: 30px;
+}
+
+.text-little-photos,
+.photo-description {
+	text-align: justify;
+	color: #867c7c;
+}
+
+.glyphicon {
+	font-size: 25px;
+}
+
+#footer-line {
+	background-color: #be8f8f;
+	width: 100%;
+}
+
+.footer-foot {
+	background-color: black;
+	padding: 15px;
+	font-weight: bold;
+}
+
+.footer {
+	color: #cbcbcb;
+}
+
+.last-big-content {
+	background-color: #3c3838;
+	color: #fff;
+	padding: 12px;
+	border-top: solid;
+	border-color:  #c00d55;
+	border-width: 7px;
+}
+
+.last-big-content p {
+	color: #dccdcd;
+}
+
+.last-big-content hr {
+	border-style: dotted;
+}
+
+.low-containers {
+	padding: 30px 0px 30px 0px;
+}
